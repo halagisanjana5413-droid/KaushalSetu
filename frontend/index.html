@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KaushalSetu | Bridging Skills with Opportunities</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🌱 KaushalSetu</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#jobs">Opportunities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="login-btn" onclick="openRegister()">Join Now</button>
+</header>
+
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <span class="badge">AI-POWERED RURAL DEVELOPMENT PLATFORM</span>
+
+        <h1>
+            Bridging Skills<br>
+            With <span>Opportunities.</span>
+        </h1>
+
+        <p>
+            Empowering rural women entrepreneurs and connecting
+            skilled rural youth with meaningful employment opportunities.
+            One platform, a stronger rural community.
+        </p>
+
+        <div class="hero-buttons">
+            <button onclick="openRegister()">Get Started →</button>
+            <a href="#features">Explore Features</a>
+        </div>
+
+        <div class="hero-stats">
+            <div>
+                <h3>SHGs</h3>
+                <p>Women Empowerment</p>
+            </div>
+
+            <div>
+                <h3>AI</h3>
+                <p>Smart Job Matching</p>
+            </div>
+
+            <div>
+                <h3>Local</h3>
+                <p>Employment Network</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <div class="image-card">
+            <div class="icon">🤝</div>
+            <h2>Skills Meet Opportunities</h2>
+            <p>Connecting people, businesses and communities.</p>
+
+            <div class="match-box">
+                <span>AI Skill Match</span>
+                <strong>96%</strong>
+            </div>
+
+            <div class="progress">
+                <div></div>
+            </div>
+
+            <p class="success">✓ Suitable opportunity found!</p>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <div class="section-heading">
+        <span>ABOUT KAUSHALSETU</span>
+        <h2>Building a Stronger Rural Economy</h2>
+        <p>
+            A digital bridge between women's entrepreneurship,
+            rural skills and employment opportunities.
+        </p>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-card">
+            <div class="about-icon">👩‍🌾</div>
+            <h3>Women Empowerment</h3>
+            <p>
+                Helping Self-Help Groups manage products,
+                customer orders, production and payments.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="about-icon">👨‍💻</div>
+            <h3>Youth Employment</h3>
+            <p>
+                Helping rural youth discover jobs according
+                to their skills, experience and location.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="about-icon">🏪</div>
+            <h3>Local Businesses</h3>
+            <p>
+                Connecting small businesses with skilled
+                workers from nearby communities.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="features" id="features">
+
+    <div class="section-heading">
+        <span>OUR SERVICES</span>
+        <h2>Everything in One Platform</h2>
+        <p>Simple digital tools for rural communities.</p>
+    </div>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <h3>📋 SHG Management</h3>
+            <p>Register groups, manage members and showcase handmade products.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📦 Smart Order Management</h3>
+            <p>Manage customer orders, production schedules and delivery deadlines.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>💰 Transparent Payments</h3>
+            <p>Maintain individual member earnings and payment records.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🤖 AI Job Matching</h3>
+            <p>Find suitable employment based on skills, experience and location.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📍 Local Job Discovery</h3>
+            <p>Discover employment opportunities available in nearby areas.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🤝 SHG-Youth Connection</h3>
+            <p>Help SHGs find additional workers when they receive large orders.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="jobs" id="jobs">
+
+    <div class="section-heading">
+        <span>FIND OPPORTUNITIES</span>
+        <h2>Jobs Near Your Community</h2>
+        <p>Explore sample employment opportunities.</p>
+    </div>
+
+    <div class="job-container">
+
+        <div class="job-card">
+            <h3>🧵 Stitching Assistant</h3>
+            <p>Shakti Women's SHG</p>
+            <p>📍 Gokak</p>
+            <h4>₹450 / Day</h4>
+            <button onclick="applyJob('Stitching Assistant')">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h3>🍱 Food Packaging</h3>
+            <p>Annapurna Foods</p>
+            <p>📍 Konnur</p>
+            <h4>₹350 / Day</h4>
+            <button onclick="applyJob('Food Packaging')">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h3>🏪 Shop Assistant</h3>
+            <p>Green Basket Store</p>
+            <p>📍 Gokak</p>
+            <h4>₹9,000 / Month</h4>
+            <button onclick="applyJob('Shop Assistant')">Apply Now</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="special">
+
+    <div>
+        <span>OUR INNOVATION</span>
+
+        <h2>SHG-to-Youth<br>Smart Workforce Connection</h2>
+
+        <p>
+            When a Women's SHG receives a large order,
+            KaushalSetu identifies nearby youth with matching skills.
+
+            This helps women complete orders while creating
+            new employment opportunities for rural youth.
+        </p>
+
+        <button onclick="openRegister()">Join KaushalSetu →</button>
+    </div>
+
+    <div class="special-box">
+        <div>📦 SHG receives a large order</div>
+        <div>⬇</div>
+        <div>🤖 AI finds matching workers</div>
+        <div>⬇</div>
+        <div>👥 Youth apply for work</div>
+        <div>⬇</div>
+        <div>💰 Everyone benefits!</div>
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+    <h2>Let's Build a Better Rural Future</h2>
+    <p>Transforming rural skills into economic opportunities.</p>
+    <button onclick="openRegister()">Register Today →</button>
+</section>
+
+
+<footer>
+    <h2>🌱 KaushalSetu</h2>
+    <p>Bridging Skills with Opportunities.</p>
+    <p>© 2026 KaushalSetu. All Rights Reserved.</p>
+</footer>
+
+
+<!-- Registration Modal -->
+
+<div class="modal" id="registerModal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeRegister()">&times;</span>
+
+        <h2>Join KaushalSetu</h2>
+
+        <p>Create your account</p>
+
+        <form id="registerForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="tel" id="phone" placeholder="Mobile Number"
+                   pattern="[0-9]{10}" required>
+
+            <select id="role" required>
+                <option value="">Select Your Role</option>
+                <option value="SHG">Women's SHG Member</option>
+                <option value="Youth">Rural Youth</option>
+                <option value="Employer">Local Employer</option>
+            </select>
+
+            <input type="text" id="location" placeholder="Village / Location" required>
+
+            <input type="text" id="skills" placeholder="Your Skills">
+
+            <button type="submit">Register Now</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
